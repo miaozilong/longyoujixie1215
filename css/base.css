@@ -33,7 +33,7 @@
 	height: 100%;
 	overflow: hidden;
 }
-.tel{
+.telephone{
 	color: rgb(215, 24, 32);
 	font-size: 18px;
 	margin-top: 40px;
@@ -145,4 +145,12 @@
 
 .media .media-left img{
 	width:130px;
+}
+.product-context{
+	padding: 20px;
+}
+
+.nav-tabs>li{
+	width:200px;
+	text-align: center;
 }

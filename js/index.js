@@ -7,4 +7,9 @@ $(function(){
 		window.alert('您使用的浏览器不支持此功能，请按“Ctrl + D”键手工加入收藏!');
 		return false;
 	})
+	$('.nav-tabs a').on('mouseover',function(e){
+		e.preventDefault()
+		$(this).tab('show')
+	})
+
 })
