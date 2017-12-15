@@ -154,3 +154,18 @@
 	width:200px;
 	text-align: center;
 }
+.promise{
+	font-size: 17px;
+	color:black;
+	letter-spacing: 0.3em;
+	margin-bottom: 36px;
+}
+.services-context,.contact-context{
+	padding: 15px;
+}
+.contact-context .page-header{
+	margin-top: 0px;
+}
+.contact-context .page-header h3{
+	margin-top: 0px;
+}
