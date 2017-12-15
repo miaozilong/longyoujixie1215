@@ -1,8 +1,56 @@
-*{
-	font-family: "微软雅黑","Microsoft YaHei";
-	
+* {
+	font-family: "微软雅黑", "Microsoft YaHei";
 }
-.longyouji-txt{
-	color: rgb(215, 24, 32); 
+
+.longyouji-txt {
+	color: rgb(215, 24, 32);
 	font-size: 18px;
+}
+
+.longyoujixie-en-txt {
+	text-transform: uppercase;
+}
+
+.logo-txt {
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+.vertical-solid {
+	border: none;
+	border-left-width: medium;
+	border-left-style: none;
+	border-left-color: currentcolor;
+	border-left: 1px solid #cccccc;
+	width: 0;
+	height: 70px;
+	padding: 0 6px;
+}
+
+.wpline-wrapper {
+	margin: 0 auto;
+	height: 100%;
+	overflow: hidden;
+}
+.tel{
+	color: rgb(215, 24, 32);
+	font-size: 18px;
+	margin-top: 40px;
+}
+.navbar{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.navbar-default{
+	background-image: linear-gradient(to bottom,#fff 0,#e1e1e1 100%);
+}
+.navbar-nav{
+	width: 100%;
+}
+.navbar-nav li{
+	width: 14.2857%;
+	text-align: center;
+}
+.img-txt{
+	margin-top: 60px;
 }
