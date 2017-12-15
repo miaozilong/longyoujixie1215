@@ -92,3 +92,34 @@
 	border-right: 1px solid #747474;
 	margin: 20px 0;
 }
+.foot-right{
+	margin-top: 30px;
+}
+
+.foot-right .header{
+	color: white;
+	font-size: 16px;
+}
+.foot-right  ul{
+	padding-left: 0px;
+	margin-top: 20px;
+	list-style: none;
+	color: #B6D9B6;
+}
+.foot-right  li a:link{
+	color: #B6D9B6;
+}
+
+.foot-right  li a:hover{
+	color: #ff9900;
+}
+.tel{
+	color: white;
+	font-size: 20px;
+	font-style: italic;
+	margin-top: 15px;
+}
+.tel i{
+	font-size: 45px;
+}
+
