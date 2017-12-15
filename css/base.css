@@ -135,10 +135,14 @@
 .list-group .list-group-item{
 	text-align: center;
 }
-.about-context{
+.about-context,.news-context{
 	padding: 15px;
 }
 
-.about-context p{
+.about-context,.news-context p{
 	text-indent: 2em;
+}
+
+.media .media-left img{
+	width:130px;
 }
