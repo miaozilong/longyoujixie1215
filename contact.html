@@ -87,12 +87,6 @@
 					  <div class="panel-heading panel-heading-left-line">
 					    <h3 class="panel-title">联系我们</h3>
 					  </div>
-					  <!-- List group -->
-					  <ul class="list-group">
-					    <li class="list-group-item">企业简介</li>
-					    <li class="list-group-item">企业文化</li>
-					    <li class="list-group-item">资质荣誉</li>
-					  </ul>
 					  <div class="panel-footer">
 					  	<img src="img/1_y024.jpg" class="img-responsive"/>
 					  	
@@ -109,19 +103,19 @@
 					<div class="row">
 						<div class="contact-context">
 							<div class="page-header">
-							  <h3>河南卫华重型机械股份有限公司</h3>
+							  <h3>南通龙游机械有限公司</h3>
 							</div>
 							<div class="row">
 								<div class="col-md-9">
 									<table  border="0" width="100%">
-										<tr><td colspan="2">公司地址：如皋市建设乡宋桥村12组</td></tr>
+										<tr><td colspan="2">公司地址：江苏省如皋市城南街道高新区</td></tr>
 										<tr>
-											<td>咨询：0513-87260058</td>
-											<td>手机：15xxxx</td>
+											<td colspan="1">技术及业务咨询：15996604333</td>
+											<td colspan="1">联系人:缪经理</td>
 										</tr>
 										<tr>
 											<td>传真：0513-87260058</td>
-											<td>邮箱：miaozijun@vip.qq.com</td>
+											<td>邮箱：miaozijun058@aliyun.com</td>
 										</tr>
 										<tr>
 											<td>商务QQ：46928680</td>
@@ -168,8 +162,8 @@
 						    //创建地图函数：
 						    function createMap(){
 						        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
-						        var point = new BMap.Point(120.610616,32.358956);//定义一个中心点坐标
-						        map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
+						        var point = new BMap.Point(120.616222,32.378586);//定义一个中心点坐标
+						        map.centerAndZoom(point,12);//设定地图的中心点和坐标并将地图显示在地图容器中
 						        window.map = map;//将map变量存储在全局
 						    }
 						    
@@ -184,7 +178,7 @@
 						    //地图控件添加函数：
 						    function addMapControl(){
 						        //向地图中添加缩放控件
-							var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+							var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
 							map.addControl(ctrl_nav);
 						        //向地图中添加缩略图控件
 							var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
@@ -195,7 +189,7 @@
 						    }
 						    
 						    //标注点数组
-						    var markerArr = [{title:"龙游机械有限公司",content:"龙游机械有限公司",point:"120.610467|32.359406",isOpen:1,icon:{w:21,h:21,l:0,t:46,x:1,lb:10}}
+						    var markerArr = [{title:"南通龙游机械有限公司",content:"南通龙游机械有限公司",point:"120.6302|32.353487",isOpen:1,icon:{w:21,h:21,l:0,t:46,x:1,lb:10}}
 								 ];
 						    //创建marker
 						    function addMarker(){
@@ -254,6 +248,7 @@
 						    initMap();//创建和初始化地图
 						</script>
 						</html>
+						
 					</div>
 				</div>
 			</div>
@@ -263,7 +258,7 @@
 				<div class="row">
 					<div class="col-md-2">
 						<div class="foot-left">
-							<img src="img/1_2ivs.png" class="img-responsive"/>
+							<img src="img/1_2ivs.png" class="img-responsive" style="visibility: hidden;"/>
 							<div class="longyouji-txt">LONGYOUJIXIE</div>
 							<div class="makeworldeasy">龙游让世界变得更轻松</div>
 						</div>
@@ -279,12 +274,12 @@
 										<div class="col-md-6">
 											<div class="header">产品中心</div>
 											<ul>
-												<li><a href="#">葫芦/起升机构</a></li>
-												<li><a href="#">起重机</a></li>
-												<li><a href="#">定制起重机</a></li>
-												<li><a href="#">洁净室起重机</a></li>
-												<li><a href="#">防爆起重设备</a></li>
-												<li><a href="#">起重机部件</a></li>
+												<li><a href="#">起重类卷扬机</a></li>
+												<li><a href="#">矿用类卷扬机</a></li>
+												<li><a href="#">船用类卷扬机</a></li>
+												<li><a href="#">海工类卷扬机</a></li>
+												<li><a href="#">CK打桩机系列</a></li>
+												<li><a href="#">机加工</a></li>
 											</ul>
 										</div>
 										<div class="col-md-6">
@@ -295,7 +290,6 @@
 												<li><a href="#">航天军工</a></li>
 												<li><a href="#">汽车行业</a></li>
 												<li><a href="#">机械制造</a></li>
-												<li><a href="#">隧道行业</a></li>
 											</ul>
 										</div>
 									</div>
@@ -305,9 +299,9 @@
 										<div class="col-md-6">
 											<div class="header">新闻中心</div>
 											<ul>
-												<li><a href="#">卫华新闻</a></li>
-												<li><a href="#">卫华集团报</a></li>
-												<li><a href="#">技术天地</a></li>
+												<li><a href="#">公司新闻</a></li>
+												<li><a href="#">行业动态</a></li>
+												<li><a href="#">媒体报道</a></li>
 											</ul>
 										</div>
 										<div class="col-md-6">
@@ -333,6 +327,17 @@
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+				</div>
+			</div>
+			<div class="text-center copyright">
+				Copyright © 2016-2020. 南通龙游机械有限公司版权所有
+				服务热线:15996604333
+				传真:0513-87260058
+				邮箱:miaozijun058@aliyun.com
+				&nbsp;&nbsp;苏ICP备16040183号
 			</div>
 		</div>
 	</body>
