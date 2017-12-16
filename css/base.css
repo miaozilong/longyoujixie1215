@@ -179,3 +179,9 @@
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+.aboutus-img{
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;	
+}
