@@ -1,0 +1,16 @@
+.img-txt{
+  margin-top: 39px;
+}
+.img-txt .read-more{
+  text-align: right;
+  color: #a61c00;
+  font-weight: bold;
+  font-size: 15px;
+}
+.headline-redline{
+  width: 55%;
+  margin-bottom: 17px;
+  height: 0;
+  border: none;
+  border-top: 3px solid #cc0000;
+}
