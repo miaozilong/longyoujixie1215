@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Router } from 'react-router'
+import { Router, Route , hashHistory } from 'react-router'
 import { Provider } from 'react-redux'
 
 class AppContainer extends React.Component {
@@ -16,7 +16,7 @@ class AppContainer extends React.Component {
 
     return (
       <Provider store={store}>
-        <Router history={history} children={routes} key={routerKey} />
+        <Router history={hashHistory} children={routes} key={routerKey} />
       </Provider>
     )
   }
