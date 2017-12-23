@@ -1,0 +1,6 @@
+.line{
+    border: none;
+    border-left: 2px solid #cccccc;
+    height: 70px;
+    width: 0px;
+}

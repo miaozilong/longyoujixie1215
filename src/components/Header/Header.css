@@ -4,3 +4,24 @@
   font-weight: bold;
   text-decoration: underline;
 }
+
+
+.logo-txt {
+  margin-top: 15px;
+  font-weight: bold;
+}
+.longyouji-txt {
+  color: rgb(215, 24, 32);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.longyoujixie-en-txt {
+  text-transform: uppercase;
+}
+
+.telephone{
+    color: rgb(215, 24, 32);
+    font-size: 18px;
+    margin-top: 40px;
+}
