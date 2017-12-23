@@ -4,7 +4,26 @@ import classes from './Header.css'
 
 export const Header = () => (
   <div>
-    <h1>IE8 React Redux Starter Kit</h1>
+  	{/*设为首页 加入收藏*/}
+    <div className="container">
+    	<div className="row">
+	    	<div className="col-md-10"></div>
+	    	<div className="col-md-2">
+	    		<span class="setIndexPage"><a href="#">设为首页</a></span><span> | </span><span class="addToFav"><a href="#">加入收藏</a></span>
+	    	</div>
+    	</div>
+    	{/*头部*/}
+    	<div className="row">
+    		<div className="col-md-8" >
+    			<div className="row">
+    				
+    			</div>
+    		</div>
+    		<div className="col-md-4" >
+    		
+    		</div>
+    	</div>
+    </div>
     <IndexLink to="/" activeClassName={classes.activeRoute}>
       Home
     </IndexLink>
