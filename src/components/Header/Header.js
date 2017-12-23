@@ -55,13 +55,6 @@ export const Header = () => (
 		{/*轮播图*/}
 		<Carousel />
 
-        <IndexLink to="/" activeClassName={classes.activeRoute}>
-            Home
-        </IndexLink>
-        {' · '}
-        <Link to="/counter" activeClassName={classes.activeRoute}>
-            Counter
-        </Link>
     </div>
 );
 

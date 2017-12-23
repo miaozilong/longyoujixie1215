@@ -13,32 +13,32 @@ export const NavBar = () => (
                         </IndexLink>
                     </li>
                     <li>
-                        <Link to='/aboutus' activeClassName='menu-item-active'>
+                        <Link to='/AboutUs' activeClassName='menu-item-active'>
                             关于我们
                         </Link>
                     </li>
                     <li>
-                        <Link to='/news' activeClassName='menu-item-active'>
+                        <Link to='/News' activeClassName='menu-item-active'>
                             新闻中心
                         </Link>
                     </li>
                     <li>
-                        <Link to='/product-center' activeClassName='menu-item-active'>
+                        <Link to='/ProductCenter' activeClassName='menu-item-active'>
                             产品中心
                         </Link>
                     </li>
                     <li>
-                        <Link to='/industry' activeClassName='menu-item-active'>
+                        <Link to='/Industry' activeClassName='menu-item-active'>
                             行业应用
                         </Link>
                     </li>
                     <li>
-                        <Link to='/services' activeClassName='menu-item-active'>
+                        <Link to='/Services' activeClassName='menu-item-active'>
                             服务中心
                         </Link>
                     </li>
                     <li>
-                        <Link to='/contact' activeClassName='menu-item-active'>
+                        <Link to='/Contact' activeClassName='menu-item-active'>
                             联系我们
                         </Link>
                     </li>
