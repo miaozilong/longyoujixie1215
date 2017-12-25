@@ -2,13 +2,18 @@ import React from 'react'
 import classes from './NavBar.css'
 import {Link,IndexLink } from 'react-router'
 
+
+function changetitle() {
+    document.title='关于我们'
+}
+
 export const NavBar = () => (
     <div>
         <nav className="navbar navbar-default nav-justified">
             <div className="container">
                 <ul className="nav navbar-nav ">
                     <li>
-                        <IndexLink to='/' activeClassName='menu-item-active' >
+                        <IndexLink to='/' activeClassName='menu-item-active'  >
                             首页
                         </IndexLink>
                     </li>

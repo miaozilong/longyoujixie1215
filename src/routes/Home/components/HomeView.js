@@ -1,13 +1,15 @@
 import React from 'react'
 import Promise from 'components/Promise'
 import IndexShowbox from 'components/IndexShowbox'
-import Footer from 'components/Footer'
+import ReactDocumentTitle from 'react-document-title'
 
 export const HomeView = () => (
-  <div>
-      <Promise/>
-      <IndexShowbox />
-  </div>
+    <ReactDocumentTitle title="龙游机械-首页">
+        <div>
+            <Promise/>
+            <IndexShowbox/>
+        </div>
+    </ReactDocumentTitle>
 )
 
 export default HomeView
