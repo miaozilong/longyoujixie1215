@@ -1,0 +1,13 @@
+.services-context,.contact-context{
+  padding: 15px;
+}
+.contact-context .page-header{
+  margin-top: 0px;
+}
+.contact-context .page-header h3{
+  margin-top: 0px;
+}
+.map{
+  margin:auto;
+  margin-bottom: 20px;
+}

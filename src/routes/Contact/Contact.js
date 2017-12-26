@@ -1,16 +1,14 @@
 import React from 'react'
 import { browserHistory } from 'react-router'
 import classes from './Contact.css'
+import ReactDocumentTitle from 'react-document-title'
+import ContactView from 'components/Contact'
 
-const goBack = (e) => {
-  e.preventDefault()
-  return browserHistory.goBack()
-}
 
 export const Contact = () => (
-  <div>
-    <h4>Contact us</h4>
-  </div>
+    <ReactDocumentTitle title='龙游机械-联系我们'>
+        <ContactView/>
+    </ReactDocumentTitle>
 )
 
 export default Contact
