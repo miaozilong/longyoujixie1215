@@ -1,14 +1,14 @@
 import React from 'react'
 import classes from './Contact.css'
-import ContactSideBar from '../ContactSideBar'
 import ContactMain from '../ContactMain'
+import SideBar from "components/SideBar/SideBar";
 
 export const Contact = () => (
     <div>
         <div className="container about-content">
             <div className="row">
                 <div className="col-md-2">
-                    <ContactSideBar/>
+                    <SideBar title='联系我们' items={[]}/>
                 </div>
                 <div className="col-md-10">
                     <ContactMain/>
