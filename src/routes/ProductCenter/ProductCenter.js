@@ -8,6 +8,9 @@ const goBack = (e) => {
     e.preventDefault()
     return browserHistory.goBack()
 }
+
+
+
 export const ProductCenter = () => (
     <ReactDocumentTitle title='龙游机械-产品中心'>
         <ProductCenterComponent />

@@ -12,7 +12,7 @@ export const Header = () => (
         <div className="container">
             <div className="row">
                 <div className="col-md-10"></div>
-                <div className="col-md-2">
+                <div className="col-md-2 visible-lg">
                     <span className="setIndexPage"><a href="#">设为首页</a></span><span> | </span><span
                     className="addToFav"><a href="#">加入收藏</a></span>
                 </div>

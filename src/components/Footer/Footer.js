@@ -85,7 +85,7 @@ export const Footer = () => (
               </div>
           </div>
           <div className="text-center copyright">
-              Copyright © 2016-2020. 南通龙游机械有限公司版权所有<br />
+              Copyright © 2016-2020.<br />南通龙游机械有限公司版权所有<br />
               服务热线:15996604333
               &nbsp;|&nbsp;
               传真:0513-87260058

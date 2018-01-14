@@ -1,5 +1,7 @@
 @import '../variables.css';
+.homeAndFav{
 
+}
 .activeRoute {
   font-weight: bold;
   text-decoration: underline;
