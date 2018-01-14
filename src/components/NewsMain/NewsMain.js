@@ -8,7 +8,7 @@ export const AboutMain = () => (
       <div className="row">
           <ol className="breadcrumb">
               <li><a href="#">首页</a></li>
-              <li><a href="#">新闻中心</a></li>
+              <li>新闻中心</li>
           </ol>
       </div>
       <div className="row">
@@ -21,7 +21,7 @@ export const AboutMain = () => (
                           </a>
                       </div>
                       <div className="media-body">
-                          <h4 className="media-heading">家庭用微型小卷扬机的使用规范</h4>
+                          <h4 className="media-heading"><a href='#'>家庭用微型小卷扬机的使用规范</a></h4>
                           <p>
                               家庭用微型小卷扬机是相比于其他的领域中大型的还有功率上比较高的产品来形成的,它在家庭中主要就是帮助完成很多的工作, 这样就可以直接的实现到对它各种使用的效率提升,而作为对人们环境产生也比较大得产品,更需要多种的注意.
                           </p>
@@ -37,7 +37,7 @@ export const AboutMain = () => (
                           </a>
                       </div>
                       <div className="media-body">
-                          <h4 className="media-heading">卷扬机厂家被选择的原因</h4>
+                          <h4 className="media-heading"><a href='#'>卷扬机厂家被选择的原因</a></h4>
                           <p>
                               各个行业在不同的积累上都有着属于它们的厂家,卷扬机厂家就是利用了网络和实际的科技上的辅助来展现在更多顾客的面前, 不管是在什么样的地区,只要是运输是比较便利的情况下都可以很好的完成对它多种的使用.这样的厂家可以保障的质量也是顾客比较在意的, 它从基础的零件挑选上就一直保持着很好的工作质量,而在最后的技术上的组合中就会让专业的人员来实施很好的加工,并且从创新的角度来看, 更是厂家需要具备的能力.选择原因.
                           </p>
@@ -50,7 +50,7 @@ export const AboutMain = () => (
                           </a>
                       </div>
                       <div className="media-body">
-                          <h4 className="media-heading">中希两国总理见证CCS与希腊百利钢公司签署框架合作协议</h4>
+                          <h4 className="media-heading"><a href="#">中希两国总理见证CCS与希腊百利钢公司签署框架合作协议</a></h4>
                           <p>
                               在中华人民共和国总理李克强和希腊共和国总理萨马拉斯（ANTONIS SAMARAS）的共同见证下，中国船级社（CCS）与希腊百利钢航运公司（PARAGON SHIPPING）在北京人民大会堂签署了框架合作协议以及两艘新建4800箱集装箱船加入CCS船级协议。交通运输部杨传堂部长及中国驻希腊大使杜起文等有关领导出席了合作文件的签字仪式。 CCS总裁孙立成和百利钢公司首席执行官迈克·保都格楼（Michael Bodouroglou）代表双方签署合作协议。
                           </p>

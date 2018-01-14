@@ -1,7 +1,7 @@
 import React from 'react'
 import { IndexLink, Link } from 'react-router'
 import classes from './Header.css'
-import Logo from './Logo'
+import Logo from '../Logo'
 import VerticalLine from './VerticalLine'
 import NavBar from '../NavBar'
 import Carousel from '../Carousel'

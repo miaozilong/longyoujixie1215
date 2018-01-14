@@ -1,6 +1,8 @@
 import React from 'react'
 import { browserHistory } from 'react-router'
 import classes from './Services.css'
+import ReactDocumentTitle from 'react-document-title'
+import ServiceComponent from 'components/Service'
 
 const goBack = (e) => {
   e.preventDefault()
@@ -8,9 +10,9 @@ const goBack = (e) => {
 }
 
 export const Services = () => (
-  <div>
-    <h4>Services</h4>
-  </div>
+    <ReactDocumentTitle title='龙游机械-服务中心'>
+        <ServiceComponent />
+    </ReactDocumentTitle>
 )
 
 export default Services

@@ -9,8 +9,8 @@ export const SideBar = (props) => (
                 <h3 className="panel-title">{props.title}</h3>
             </div>
             <ul className="list-group">
-                {props.items.map(currentValue =>
-                    <li className="list-group-item">{currentValue}</li>
+                {props.items.map((currentValue,index,array)=>
+                    <li className="list-group-item" key={index}>{currentValue}</li>
                 )}
             </ul>
             <div className="panel-footer">

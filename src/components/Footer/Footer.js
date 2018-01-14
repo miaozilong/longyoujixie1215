@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './Footer.css'
+import Logo from 'components/Logo'
 
 export const Footer = () => (
   <div>
@@ -8,7 +9,7 @@ export const Footer = () => (
               <div className="row">
                   <div className="col-md-2">
                       <div className="foot-left">
-                          <img src="img/1_2ivs.png" className="img-responsive" />
+                          <Logo />
                           <div className="longyouji-txt">LONGYOUJIXIE</div>
                           <div className="makeworldeasy">龙游让世界变得更轻松</div>
                       </div>
