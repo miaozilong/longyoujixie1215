@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './SideBar.css'
 import ProductCenterImg from './img/1_y024.jpg'
-
+import {Link} from 'react-router'
 export const SideBar = (props) => (
     <div>
         <div className="panel panel-default">
@@ -14,7 +14,9 @@ export const SideBar = (props) => (
                 )}
             </ul>
             <div className="panel-footer">
-                <img src={ProductCenterImg} className="img-responsive"/>
+                <Link to='/ProductCenter'>
+                    <img src={ProductCenterImg} className="img-responsive"/>
+                </Link>
             </div>
         </div>
     </div>
